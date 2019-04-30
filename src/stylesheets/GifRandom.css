@@ -1,0 +1,54 @@
+/*
+* GIF-RANDOM 
+*/
+
+.random-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
+
+.gif-random h1.GIF-TITLE:nth-child(1) {
+	font-size: 20px;
+	align-items: center;
+	padding-left: 0;
+}
+
+.random-word {
+	margin-left: 10px;
+	text-decoration: underline;
+}
+
+.random-container img:hover {
+	opacity: .5;
+}
+
+
+
+/*
+* ROTATE RANDOM BUTTON 
+*/
+.rotate-0 {
+	transform: rotate(0deg);
+}
+
+.rotate-90 {
+	transform: rotate(180deg);
+}
+
+.rotate-180 {
+	transform: rotate(0deg);
+}
+.rotate-270 {
+	transform: rotate(180deg);
+}
+
+.gif-random .GIF-SVG {
+	margin-left: 10px;
+	transition: transform .5s linear;
+}
+
+svg .circle {
+	fill: var(--title-color);
+}

@@ -1,0 +1,73 @@
+/*
+* https://rsms.me/inter/
+*/
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("../Inter/Inter-Regular.woff2") format("woff2"),
+       url("../Inter/Inter-Regular.woff") format("woff");
+}
+
+/*
+* VARIABLES 
+*/
+:root {
+  --title-color: rgb(166, 166, 166);
+  --background-color: #121212;
+}
+
+/*
+* Keeps width static: 
+*   - Always trigger scroll bar 
+*/
+html {
+  overflow-y: scroll;
+}
+
+body {
+	background-color: var(--background-color);
+}
+
+.GIF-TITLE {
+	letter-spacing: .01em;
+  text-transform: uppercase;
+  color: var(--title-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 600;
+  padding: 9px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+* {
+	user-select: none;
+	font-family: 'Inter', sans-serif;	
+}
+
+.GIF-SVG {
+  width: 18px;
+  height: 18px;
+}
+
+.GIF-SVG:hover {
+  cursor: pointer;
+}
+
+/*
+* Fix: Floats disrupts Parent's Height 
+*/
+.clearfix {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.relative {
+  position: relative;
+}
+
+.flex {
+  display: flex;
+}

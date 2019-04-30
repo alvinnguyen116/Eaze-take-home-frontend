@@ -1,0 +1,17 @@
+.pointer.sticker {
+    margin-left: 20px;
+}
+
+.pointer:hover {
+	cursor: pointer;
+}
+
+.animated-ellipse {
+	position: absolute;
+    top: 4px;
+    left: 0px;
+    height: 25px;
+    background-color: #ffffff12;
+    z-index: -1;
+    transition: transform .1s linear;
+}

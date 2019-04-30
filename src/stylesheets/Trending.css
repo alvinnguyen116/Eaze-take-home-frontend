@@ -1,0 +1,39 @@
+/*
+* TRENDING 
+*/
+.trending h1 {
+	font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    padding-right: 0;
+}
+
+.trending img:hover {
+	cursor: pointer;
+	opacity: .5;
+}
+
+.trending h1.GIF-TITLE:nth-child(1) {
+	font-size: 20px;
+	padding-left: 0;
+}
+
+.title-container {
+	justify-content: space-between;
+}
+
+/*
+* ERROR MESSAGE 
+*/
+.favorite-error {
+	color: white;
+	height: 150px;
+	margin: 6px;
+	display: flex !important;
+	align-items: center;
+}
+
+.favorite-error .line-2{
+	width: fit-content;
+    display: flex;
+    flex-direction: row;
+}

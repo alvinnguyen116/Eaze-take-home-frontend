@@ -1,0 +1,37 @@
+.logo {
+	width: 164px;
+	height: 70px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.left-line {
+    fill: #00ff99;
+}
+
+.right-line {
+    fill: #9933ff;
+}
+
+.bottom-line {
+    fill: #00ccff;
+}
+
+.top-line {
+    fill: #fff35c;
+}
+
+.zig-zag-line {
+    fill: #ff6666;
+}
+
+.zig-zag-line-2 {
+    fill: #000;
+    opacity: .4;
+}
+
+.logo-text {
+	fill: white;
+}
