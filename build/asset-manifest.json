@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Eaze-take-home-frontend/static/css/main.79d96ffd.chunk.css",
+    "main.js": "/Eaze-take-home-frontend/static/js/main.52803cfa.chunk.js",
+    "main.js.map": "/Eaze-take-home-frontend/static/js/main.52803cfa.chunk.js.map",
+    "runtime~main.js": "/Eaze-take-home-frontend/static/js/runtime~main.262aa429.js",
+    "runtime~main.js.map": "/Eaze-take-home-frontend/static/js/runtime~main.262aa429.js.map",
+    "static/css/2.e3a7d8da.chunk.css": "/Eaze-take-home-frontend/static/css/2.e3a7d8da.chunk.css",
+    "static/js/2.03c72286.chunk.js": "/Eaze-take-home-frontend/static/js/2.03c72286.chunk.js",
+    "static/js/2.03c72286.chunk.js.map": "/Eaze-take-home-frontend/static/js/2.03c72286.chunk.js.map",
+    "index.html": "/Eaze-take-home-frontend/index.html",
+    "precache-manifest.05ff71b73225d75097360f9ea019e5ab.js": "/Eaze-take-home-frontend/precache-manifest.05ff71b73225d75097360f9ea019e5ab.js",
+    "service-worker.js": "/Eaze-take-home-frontend/service-worker.js",
+    "static/css/2.e3a7d8da.chunk.css.map": "/Eaze-take-home-frontend/static/css/2.e3a7d8da.chunk.css.map",
+    "static/css/main.79d96ffd.chunk.css.map": "/Eaze-take-home-frontend/static/css/main.79d96ffd.chunk.css.map",
+    "static/media/App.css": "/Eaze-take-home-frontend/static/media/Inter-Regular.d55e9576.woff2",
+    "static/media/search.svg": "/Eaze-take-home-frontend/static/media/search.c2528129.svg",
+    "static/media/slick-theme.css": "/Eaze-take-home-frontend/static/media/slick.f97e3bbf.svg"
+  }
+}

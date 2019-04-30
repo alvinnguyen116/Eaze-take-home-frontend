@@ -60,14 +60,7 @@ class GifRandom extends Component {
 		if (this.props.active_gif !== null) {
 			return null;
 		}
-		/*
-		* Animation for Gifs & Stickers Button 
-		*/
-		const style = {
-			transform: this.props.is_gif ? 'translateX(0)': 'translateX(52px)',
-			width: this.props.is_gif ? '51px' : '86px',
-		}; 
-		
+
 		return (
 			<div className="gif-random">
 				<div className="title-container">
